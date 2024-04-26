@@ -1,0 +1,241 @@
+@media (max-width: 991px) {
+    .grids {
+        grid-template-columns: 1fr 1fr 1fr 25%;
+        grid-template-rows: auto 1fr 1fr 1fr auto auto auto auto;
+        height: 400vh;
+    }
+}
+
+@media (max-width: 479px) {
+    .grids {
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+        height: 600vh;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 991px) {
+    .display {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 8;
+        grid-row-end: 9;
+    }
+}
+@media screen and (max-width: 479px) {
+    .display{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 10;
+        grid-row-end: 11;
+        padding: 0;
+    }
+}
+@media (max-width: 479px) {
+    .display{
+        padding-bottom: 30px;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .POPULAR {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 7;
+        grid-row-end: 8;
+    }
+}
+@media (max-width: 991px) {
+    .POPULAR {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+@media screen and (max-width: 479px) {
+    .POPULAR {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 9;
+        grid-row-end: 10;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 991px) {
+    .iCloud {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 7;
+    }
+}
+@media screen and (max-width: 479px) {
+    .iCloud {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 8;
+        grid-row-end: 9;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 991px) {
+    .Experience {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+}
+@media screen and (max-width: 479px) {
+    .Experience {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 7;
+        grid-row-end: 8;
+    }
+}
+
+
+
+
+@media screen and (max-width: 991px) {
+    .Twitter {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+}
+@media screen and (max-width: 479px) {
+    .Twitter {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .Rotary {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+}
+@media (max-width: 991px) {
+    .Rotary {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+@media screen and (max-width: 479px) {
+    .Rotary {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+}
+
+
+
+
+@media screen and (max-width: 991px) {
+    .IPHONE6S {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+}
+@media (max-width: 479px) {
+    .IPHONE6S {
+        padding-top: 40px;
+        flex-direction: column;
+    }
+}
+
+
+
+
+@media screen and (max-width: 991px) {
+    .Games {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+}
+@media (max-width: 991px) {
+    .Games {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+@media screen and (max-width: 479px) {
+    .Games {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .IMAC {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+}
+@media screen and (max-width: 479px) {
+    .IMAC {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        padding-bottom: 50px;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .Keyboard {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+}
+@media screen and (max-width: 479px) {
+    .Keyboard {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
